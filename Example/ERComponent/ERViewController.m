@@ -7,6 +7,7 @@
 //
 
 #import "ERViewController.h"
+#import "Base.h"
 
 @interface ERViewController ()
 
@@ -16,6 +17,7 @@
 
 - (void)viewDidLoad
 {
+
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

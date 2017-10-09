@@ -1,0 +1,6 @@
+framework module ERComponent {
+  umbrella header "ERComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

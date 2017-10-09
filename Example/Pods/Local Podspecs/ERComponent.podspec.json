@@ -1,0 +1,22 @@
+{
+  "name": "ERComponent",
+  "version": "0.1.0",
+  "summary": "A short description of ERComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jialianghappy1314@163.com/ERComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jialianghappy1314@163.com": "yijialiang@stormorai.com"
+  },
+  "source": {
+    "git": "https://github.com/jialianghappy1314@163.com/ERComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ERComponent/Classes/**/*"
+}

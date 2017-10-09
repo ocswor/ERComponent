@@ -1,0 +1,23 @@
+PODS:
+  - ERComponent (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ERComponent (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ERComponent:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ERComponent: d3d59d9e8f53202b9c3f0d1dda5aeee99faec17d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b287b4763f79bd5c4fe1b102dfbcdb22717bdc5d
+
+COCOAPODS: 1.2.0
