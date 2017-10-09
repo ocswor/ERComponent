@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ERComponent_Example' do
+  pod 'ERComponent', :path => '../'
+
+  target 'ERComponent_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
