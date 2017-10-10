@@ -6,7 +6,7 @@
 //  Copyright © 2017年 jialianghappy1314@163.com. All rights reserved.
 //
 
-#import "CALayer+Extention.h"
+#import "CALayer+Extension.h"
 
 @implementation CALayer (Extention)
 

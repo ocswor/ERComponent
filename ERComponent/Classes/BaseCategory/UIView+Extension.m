@@ -6,7 +6,7 @@
 //  Copyright © 2017年 jialianghappy1314@163.com. All rights reserved.
 //
 
-#import "UIView+Extention.h"
+#import "UIView+Extension.h"
 
 @implementation UIView (Extention)
 

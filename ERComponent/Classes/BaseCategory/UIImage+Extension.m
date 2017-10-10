@@ -6,7 +6,7 @@
 //  Copyright © 2017年 jialianghappy1314@163.com. All rights reserved.
 //
 
-#import "UIImage+Extention.h"
+#import "UIImage+Extension.h"
 
 @implementation UIImage (Extention)
 
