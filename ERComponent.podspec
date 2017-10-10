@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ERComponent'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ERComponent.'
+  s.version          = '0.0.2'
+  s.summary          = 'Eric 网络收集常用组件库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jialianghappy1314@163.com/ERComponent'
+  s.homepage         = 'https://github.com/ocswor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jialianghappy1314@163.com' => 'yijialiang@stormorai.com' }
-  s.source           = { :git => 'https://github.com/jialianghappy1314@163.com/ERComponent.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ocswor/ERComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ERComponent/Classes/**/*'
-  
+#s.source_files = 'ERComponent/Classes/**/*'
+  s.subspec 'Base' do |b|
+    b.source_files = 'ERComponent/Classes/Base**/*'
+  end
   # s.resource_bundles = {
   #   'ERComponent' => ['ERComponent/Assets/*.png']
   # }

@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "Base.h"
+#import "ERConst.h"
+#import "Sington.h"
 
 FOUNDATION_EXPORT double ERComponentVersionNumber;
 FOUNDATION_EXPORT const unsigned char ERComponentVersionString[];
