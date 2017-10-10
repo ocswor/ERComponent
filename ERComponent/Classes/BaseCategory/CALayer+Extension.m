@@ -8,7 +8,7 @@
 
 #import "CALayer+Extension.h"
 
-@implementation CALayer (Extention)
+@implementation CALayer (Extension)
 
     
 - (void)pauseAnimate

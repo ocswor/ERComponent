@@ -8,7 +8,7 @@
 
 #import "UIView+Extension.h"
 
-@implementation UIView (Extention)
+@implementation UIView (Extension)
 
 -(void)setCenterX:(CGFloat)centerX {
     CGPoint center = self.center;

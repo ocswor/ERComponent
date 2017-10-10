@@ -8,7 +8,7 @@
 
 #import "UIImage+Extension.h"
 
-@implementation UIImage (Extention)
+@implementation UIImage (Extension)
 
 + (UIImage *)originImageWithName: (NSString *)name {
     

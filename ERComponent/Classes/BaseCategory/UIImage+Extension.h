@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Extention)
+@interface UIImage (Extension)
 
 
 /**

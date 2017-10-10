@@ -8,7 +8,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface CALayer (Extention)
+@interface CALayer (Extension)
 
 // 暂停动画
 - (void)pauseAnimate;
