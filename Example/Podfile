@@ -1,9 +1,10 @@
-source 'git@gitee.com:ocswor/ERSpecs.git'
+#source 'git@gitee.com:ocswor/ERSpecs.git'
 
 use_frameworks!
 
 target 'ERComponent_Example' do
-    pod 'ERComponent'
+#    pod 'ERComponent'
+    pod 'ERComponent', :path => '../‘
 
   target 'ERComponent_Tests' do
     inherit! :search_paths

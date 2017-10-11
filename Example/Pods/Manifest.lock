@@ -1,12 +1,48 @@
 PODS:
-  - ERComponent (0.0.1)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ERComponent (0.0.4):
+    - ERComponent/Base (= 0.0.4)
+    - ERComponent/BaseCategory (= 0.0.4)
+    - ERComponent/CircleCarousel (= 0.0.4)
+    - ERComponent/Network (= 0.0.4)
+    - ERComponent/Tool (= 0.0.4)
+  - ERComponent/Base (0.0.4)
+  - ERComponent/BaseCategory (0.0.4):
+    - SDWebImage (~> 4.1.2)
+  - ERComponent/CircleCarousel (0.0.4)
+  - ERComponent/Network (0.0.4):
+    - AFNetworking (~> 3.1.0)
+  - ERComponent/Tool (0.0.4)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
 
 DEPENDENCIES:
-  - ERComponent
+  - ERComponent (from `../`)
+
+EXTERNAL SOURCES:
+  ERComponent:
+    :path: ../
 
 SPEC CHECKSUMS:
-  ERComponent: b6a664cd5f6fb642ce1566e4be220717f3fd0c30
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ERComponent: 5c39babaef8bf90cc426a88a4fe08d618f2edf43
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
 
-PODFILE CHECKSUM: 166ee269d1af8166f2e000c7db8bcbbc30a85ab6
+PODFILE CHECKSUM: bf7c5045f64ab1427c077692696611415ccbd627
 
 COCOAPODS: 1.2.0
