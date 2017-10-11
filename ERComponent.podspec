@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ERComponent'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Eric 网络收集常用组件库'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,20 @@ TODO: Add long description of the pod here.
 
   s.subspec 'BaseCategory' do |bc|
     bc.source_files = 'ERComponent/Classes/BaseCategory/**/*'
+    bc.dependency 'SDWebImage', '~> 4.1.2'
+  end
+
+  s.subspec 'Network' do |n|
+    n.source_files = 'ERComponent/Classes/Network/**/*'
+    n.dependency 'AFNetworking', '~> 3.1.0'
+  end
+
+  s.subspec 'Tool' do |t|
+    t.source_files = 'ERComponent/Classes/Tool/**/*'
+  end
+
+  s.subspec 'CircleCarousel' do |circle|
+    circle.source_files = 'ERComponent/Classes/CircleCarousel/**/*'
   end
 
   # s.resource_bundles = {
