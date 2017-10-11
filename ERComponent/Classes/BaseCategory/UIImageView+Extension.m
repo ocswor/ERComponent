@@ -35,6 +35,7 @@
     if (isCircle) {
         [self sd_setImageWithURL:url placeholderImage:[placeHoldImage circleImage] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
             
+            
             UIImage *resultImage = [image circleImage];
             
             // 6. 处理结果图片
@@ -46,7 +47,6 @@
         
     }else {
         [self sd_setImageWithURL:url placeholderImage:placeHoldImage completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-            
             // 6. 处理结果图片
             if (image == nil) return;
             self.image = image;
