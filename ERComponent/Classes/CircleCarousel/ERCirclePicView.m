@@ -18,10 +18,7 @@ static NSInteger const radio = 5;
  *  用于加载图片的代码块, 必须有值
  */
 @property (nonatomic, strong) LoadImageBlock loadBlock;
-/**
- *  用来展示图片的数据源
- */
-@property (nonatomic, strong) NSArray <id <ERCircleModelProtocol>>*picModels;
+
 /**
  *  记录着根据模型数组, 添加的imageView控件
  */
@@ -44,11 +41,10 @@ static NSInteger const radio = 5;
 @implementation ERCirclePicView
 
 
-+(instancetype)initWithFrame:(CGRect)frame PicModels:(NSArray <id <ERCircleModelProtocol>>*)picModels LoadImageBlock:(LoadImageBlock)loadBlock{
++(instancetype)initWithFrame:(CGRect)frame LoadImageBlock:(LoadImageBlock)loadBlock{
     
     ERCirclePicView *circlePicView = [[ERCirclePicView alloc]initWithFrame:frame];
     circlePicView.loadBlock = loadBlock;
-    circlePicView.picModels = picModels;
     return circlePicView;
     
 }
@@ -200,6 +196,7 @@ static NSInteger const radio = 5;
     if (self.pics.count > 1) {
         [self scrollTimer];
     }
+
 }
 
 -(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
@@ -239,6 +236,8 @@ static NSInteger const radio = 5;
     }
     
     _currentPage = page;
+    
+    
     
     if ([self.delegate respondsToSelector:@selector(circlePicViewDidScrollPicModel:)]) {
         [self.delegate circlePicViewDidScrollPicModel:self.picModels[self.pageControl.currentPage]];

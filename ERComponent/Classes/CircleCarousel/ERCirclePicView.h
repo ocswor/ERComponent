@@ -19,12 +19,15 @@ typedef void(^LoadImageBlock)(UIImageView *imageView,NSURL *url);
 
 @interface ERCirclePicView : UIView
 
-+(instancetype)initWithFrame:(CGRect)frame PicModels:(NSArray <id <ERCircleModelProtocol>>*)picModels LoadImageBlock:(LoadImageBlock)loadBlock;
++(instancetype)initWithFrame:(CGRect)frame LoadImageBlock:(LoadImageBlock)loadBlock;
 
 /**
  *  用于告知外界, 当前滚动到的是哪个广告数据模型
  */
 @property (nonatomic, strong) id<ERCirclePicViewDelegate> delegate;
 
-
+/**
+ *  用来展示图片的数据源
+ */
+@property (nonatomic, strong) NSArray <id <ERCircleModelProtocol>>*picModels;
 @end
