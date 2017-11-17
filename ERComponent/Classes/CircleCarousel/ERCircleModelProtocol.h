@@ -17,5 +17,5 @@
 /**
  *  点击执行的代码块(优先级高于adLinkURL)
  */
-@property (nonatomic, copy) void(^clickBlock)();
+@property (nonatomic, copy) void(^clickBlock)(void);
 @end
