@@ -53,6 +53,10 @@ TODO: Add long description of the pod here.
     circle.source_files = 'ERComponent/Classes/CircleCarousel/**/*'
   end
 
+    s.subspec 'ERDownloader' do |downloader|
+    downloader.source_files = 'ERComponent/Classes/ERDownloader/**/*'
+    end
+
   # s.resource_bundles = {
   #   'ERComponent' => ['ERComponent/Assets/*.png']
   # }

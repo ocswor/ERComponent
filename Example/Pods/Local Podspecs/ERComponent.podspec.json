@@ -48,6 +48,10 @@
     {
       "name": "CircleCarousel",
       "source_files": "ERComponent/Classes/CircleCarousel/**/*"
+    },
+    {
+      "name": "ERDownloader",
+      "source_files": "ERComponent/Classes/ERDownloader/**/*"
     }
   ]
 }
